@@ -46,7 +46,7 @@ jobs:
       uses: aws-actions/amazon-ecs-render-task-definition@v1
       with:
         task-definition: task-definition.json
-        container-name: app
+        container-name: front
         image: ${{ steps.build.outputs.image }}
 
     - name: Deploy
