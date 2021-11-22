@@ -3,6 +3,9 @@
   "description": "Front Base for React Admin",
   "version": "0.0.1",
   "private": true,
+  "engines": {
+    "node": "16x"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:eduzz/template-react.git"
