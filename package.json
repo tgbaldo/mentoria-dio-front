@@ -8,8 +8,8 @@
     "url": "git@github.com:eduzz/template-react.git"
   },
   "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "lint": "yarn eslint \"./src/**/*.ts\" \"./src/**/*.tsx\""
   },
   "dependencies": {
